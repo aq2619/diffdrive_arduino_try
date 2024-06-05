@@ -28,12 +28,6 @@ class Wheel
       name = wheel_name;
     }
 
-    double calc_enc_angle()
-    {
-      return enc * rads_per_count;
-    }
-
-
 
 };
 
